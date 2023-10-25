@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="valentine">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body tabindex="-1">
+ 
+  <%- include('partials/navbar', {page: '/about'}) %>
+
+  <br />
+
+  <div class="container mx-auto">
+
+    <div class="hero bg-base-200 rounded-lg p-6">
+      <div class="hero-content text-center ">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">About</h1>
+
+          <p class="py-6">Everything you want to know about me - the designer &amp; developer.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <img class="w-full rounded-lg"
+          src="/img/pexels-s-migaj-747964.jpg"
+          alt="profile" />
+
+      </div>
+      <div class="prose">
+            <h2 class="text-xl font-bold mb-4">Nguyen Huu Linh</h2>
+            <p>
+                Hello! I'm Nguyen, a passionate Lego enthusiast. When I'm not building intricate Lego sets, I'm pursuing web development courses and exploring the latest in technology. 
+                <br><br>
+                Some other hobbies of mine include reading, hiking, and traveling to new places. I'm always eager to learn and take on new challenges!
+            </p>
+        </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

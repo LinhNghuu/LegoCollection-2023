@@ -5,7 +5,7 @@ module.exports = {
       themes: ["light", "dark", "valentine"],
   },
   plugins: [],
-  purge: ['./**/*.html'],
+  purge: ['./**/*.ejs'],
   plugins: [
     require('@tailwindcss/typography'),
     require('daisyui'),

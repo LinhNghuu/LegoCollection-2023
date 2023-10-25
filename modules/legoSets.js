@@ -58,6 +58,7 @@ module.exports = {
   getSetsByTheme,
 };
 
+/*
 // Testing the functions
 initialize()
   .then(() => {
@@ -78,3 +79,5 @@ initialize()
   .catch((error) => {
     console.error(error);
   });
+
+  */

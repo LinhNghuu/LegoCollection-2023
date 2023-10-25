@@ -1,13 +1,28 @@
 /********************************************************************************
- *  WEB322 – Assignment 04
- *
- *  I declare that this assignment is my own work in accordance with Seneca's
- *  Academic Integrity Policy:
- *
- *  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
- *
- *  Name: Nguyen Huu Linh Student ID: 118197227 Date: Oct 24 2023
- ********************************************************************************/
+
+* WEB322 – Assignment 04
+
+*
+
+* I declare that this assignment is my own work in accordance with Seneca's
+
+* Academic Integrity Policy:
+
+*
+
+* https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+
+*
+
+* Name: Nguyen Huu Linh Student ID: 118197227 Date: Oct 24 2023
+
+*
+
+* Published URL: https://important-lime-leotard.cyclic.app/
+
+*
+
+********************************************************************************/
 
 // Importing required modules
 const express = require('express');

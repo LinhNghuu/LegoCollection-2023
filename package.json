@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "tailwindcss build ./public/css/tailwind.css -o ./public/css/main.css"
+    "watch": "tailwindcss build ./public/css/tailwind.css -o ./public/css/main.css --watch"
   },
   "author": "Nguyen Huu Linh",
   "license": "ISC",

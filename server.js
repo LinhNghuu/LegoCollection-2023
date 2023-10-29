@@ -30,7 +30,7 @@ const legoData = require('./modules/legoSets');
 
 // Initializing Express and setting up the port
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Setting EJS as the view engine and specifying the public folder for static files
 app.set('view engine', 'ejs');

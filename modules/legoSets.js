@@ -166,6 +166,14 @@ function editSet(set_num, setData) {
       .catch((err) => reject(err.errors[0].message));
   });
 }
+// Delete a set
+function deleteSet(setNum) {
+  return new Promise((resolve, reject) => {
+      Set.destroy({ where: { set_num: setNum } })
+          .then(() => resolve())
+          .catch(err => reject(err.errors[0].message));
+  });
+}
 // Get all themes
 function getAllThemes() {
   return Theme.findAll();
@@ -177,6 +185,7 @@ module.exports = {
   getSetsByTheme,
   addSet,
   editSet,
+  deleteSet,
   getAllThemes
 };
 

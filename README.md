@@ -1,26 +1,26 @@
-<h1 align="center">🌐 Node.js-MongoDB-Tailwind-EJS Web Project 🌐</h1>
+<h1 align="center">🌐 Node.js-PostgreSQL-Tailwind-EJS Web Project 🌐</h1>
 
 <div align="center">
   <strong>Dynamic Web Application with Modern Stack</strong>
 </div>
 <div align="center">
-  A <code>Node.js, MongoDB, Tailwind CSS, and EJS</code> based project.
+  A <code>Node.js, PostgreSQL, Tailwind CSS, and EJS</code> based project.
 </div>
 
 <div align="center">
-  <sub>Built with 🌟 by <a href="https://www.linkedin.com/in/huu-linh-nguyen-96003a233/">Nguyen Huu Linh</a>.
+  <sub>Built with ❤️ by <a href="https://www.linkedin.com/in/huu-linh-nguyen-96003a233/">Nguyen Huu Linh</a>.
 </div>
 
 ---
 
 ## 🌟 Introduction 🌟
 
-Welcome to my Node.js-MongoDB-Tailwind-EJS Web Project repository! My name is **Nguyen Huu Linh**, and this project is part of my Web Development class at Seneca College. Check out the live project [here](https://important-lime-leotard.cyclic.app/).
+Welcome to my Node.js-PostgreSQL-Tailwind-EJS Web Project repository! My name is **Nguyen Huu Linh**, and this project is part of my Web Development class at Seneca College. Check out the live project [here](https://important-lime-leotard.cyclic.app/).
 
 ## 🛠 Technologies Used 🛠
 
 - Node.js 🟢
-- MongoDB 🍃
+- PostgreSQL 🐘
 - Tailwind CSS 🌬
 - EJS 🖋
 

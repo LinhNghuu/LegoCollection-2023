@@ -23,8 +23,7 @@
           <div class="max-w-md">
             <h1 class="text-5xl font-bold"><%= set.name %></h1>
             <p class="py-6">
-              Below, you will find detailed information about the set: <%=
-              set.name %>
+              Below, you will find detailed information about the set: <%= set.name %>
             </p>
           </div>
         </div>
@@ -44,11 +43,13 @@
             <p class="mb-2"><span class="font-semibold">Theme:</span> <%= set.Theme.name %></p>
             <p class="mb-4"><span class="font-semibold">Number of Parts:</span> <%= set.num_parts %></p>
             <p id="quote" class="italic mb-4"></p>
-            <div class="flex gap-4">
-              <a href="/lego/editSet/<%= set.set_num %>" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">Edit</a>
-              <a href="#" onclick="history.back(); return false;" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded transition duration-300">Return</a>
+              <div class="flex gap-4">
+                <% if (session && session.user) { %>
+                <a href="/lego/editSet/<%= set.set_num %>" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">Edit</a>
+             
+            <% } %>
+            <a href="#" onclick="history.back(); return false;" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded transition duration-300">Return</a>
           </div>
-          
         </div>
     </div>
     
